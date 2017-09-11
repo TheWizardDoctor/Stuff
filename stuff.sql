@@ -55,7 +55,7 @@ Dist_install_labor CHAR(128), CPE_install_labor CHAR(128)
 );
 
 INSERT INTO Plotting
-( ID, 
+( 
 Customer_name, Address,
 Salesperson, Bandwidth_req,
 Existing_infrastructure, Survey,
@@ -66,13 +66,13 @@ Notes, Dist_install_labor,
 CPE_install_labor)
 
 VALUES
-( 0,
+(
 'Nathan Shepherd', '670 Noneofyobuisness',
 "IT'S ME", "all of it",
-"Yes, radio survey, visual survey", "Yes? 120?",
-"No? 16?", "No.",
-"TO MUCH", "Is this a number??? Who fucking knows.",
-"A dish, a radio, maybe a wire or two, what about some cables? oh no why would they need need cables...........", "i am tired -_-",
-"Probs like $20", "Wow that's gonna be like $160 or something"
+"Yes, radio survey, visual survey",  "Yes? 120?", 
+"No? 16?",  "No.", 
+"TO MUCH", "Is this a number??? Who fucking knows.", 
+"A dish, a radio, maybe a wire or two, what about some cables? oh no why would they need need cables...........",  "i am tired -_-", 
+"Probs like $20", "Wow that's gonna be like $160 or something",
+"does this fix it? YEET"
 );
-
