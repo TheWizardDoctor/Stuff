@@ -55,7 +55,7 @@ Dist_install_labor CHAR(128), CPE_install_labor CHAR(128)
 );
 
 INSERT INTO Plotting
-(
+( ID, 
 Customer_name, Address,
 Salesperson, Bandwidth_req,
 Existing_infrastructure, Survey,
@@ -66,7 +66,7 @@ Notes, Dist_install_labor,
 CPE_install_labor)
 
 VALUES
-(
+( 0,
 'Nathan Shepherd', '670 Noneofyobuisness',
 "IT'S ME", "all of it",
 "Yes, radio survey, visual survey", "Yes? 120?",
